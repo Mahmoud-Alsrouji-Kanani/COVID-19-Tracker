@@ -25,7 +25,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
               {new Date(lastUpdate).toDateString()}
             </Typography>
             <Typography variant="body2" component="p">
-              Number of active cases of COVID-19.
+              Number of active cases of COVID-19
             </Typography>
           </CardContent>
         </Grid>
@@ -41,7 +41,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
               {new Date(lastUpdate).toDateString()}
             </Typography>
             <Typography variant="body2" component="p">
-              Number of recoveries from COVID-19.
+              Number of recoveries from COVID-19
             </Typography>
           </CardContent>
         </Grid>
@@ -57,7 +57,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
               {new Date(lastUpdate).toDateString()}
             </Typography>
             <Typography variant="body2" component="p">
-              Number of deaths caused by COVID-19.
+              Number of deaths caused by COVID-19
             </Typography>
           </CardContent>
         </Grid>
