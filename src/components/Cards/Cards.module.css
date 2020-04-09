@@ -7,6 +7,7 @@
 
 .card {
   margin: 0 2% !important;
+  border-radius: 0 !important;
 }
 
 .infected {
@@ -14,11 +15,11 @@
 }
 
 .recovered{
-  border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+  border-bottom: 10px solid rgb(0, 180, 0);
 }
 
 .deaths{
-  border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+  border-bottom: 10px solid rgb(223, 1, 1);
 }
 
 @media only screen and (max-width: 770px) {
